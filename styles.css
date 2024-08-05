@@ -1,0 +1,277 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ 
+p {
+    font-family: "Barlow", sans-serif;
+}
+
+header {
+    background-image: url(/images/desktop/image-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 8vw;
+    padding-top: 20px;
+    align-items: center;
+}
+
+nav h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li.contact a {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+nav ul li.contact a{
+    color: #000;
+}
+
+nav ul li.contact a:hover {
+   background-color: rgba(255, 255, 255, 0.3);
+   color: #fff;
+}
+
+header h1.title {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Fraunces", serif;
+    padding-top: 7rem;
+    letter-spacing: 10px;
+}
+
+header .arrow {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+header .arrow img {
+    width: 20px;
+    height: 100px;
+}
+
+
+
+
+/* Styling for the section */
+section .first, .second, .third {
+    display: flex;
+    width: 100%;
+}
+
+section .transform, .stand, .apple, .orange {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 40vh;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+section .transform h1, .stand h1 {
+    font-family: "Fraunces", serif;
+    font-size: 40px;
+    padding-left: 90px;
+}
+
+section .transform p, .stand p {
+    color: hsl(232, 10%, 55%);
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    padding-left: 90px;
+}
+
+section .transform h2, .stand h2 {
+    padding-left: 90px;
+}
+
+section .first .egg {
+    background-image: url(/images/desktop/image-transform.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 50%;
+    
+}
+
+
+section .second .cup {
+    background-image: url(/images/desktop/image-stand-out.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 50%;
+}
+
+section .third .orange {
+    background-image: url(/images/desktop/image-photography.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 50%;
+}
+
+section .third .apple {
+    background-image: url(/images/desktop/image-graphic-design.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 50%;
+}
+
+section .third .apple h1, .orange h1 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20rem;
+    
+}
+
+section .third .apple {
+    color: hsl(167, 40%, 24%);
+}
+
+section .third .orange  {
+    color: hsl(198, 62%, 26%);
+}
+
+section .third .apple p, .orange p{
+    font-size: 20px;
+    text-align: center;
+}
+
+section .fourth {
+    padding-block: 80px;
+}
+
+section .fourth .client h1 {
+    text-align: center;
+    font-size: 40px;
+    color: hsl(232, 10%, 55%);
+
+}
+
+section .fourth .people {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 8vw;
+    padding-top: 70px;
+}
+
+section .fourth .people img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+/* To move the image to center */
+section .fourth .people .image {
+    display: flex;
+    justify-content: center;
+}
+
+section .column {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+section .fourth .people {
+    text-align: center;
+}
+
+.column p {
+    font-size: 18px;
+    font-weight: 500;
+    color: hsl(232, 10%, 55%);
+    line-height: 30px;
+}
+
+.column h1 {
+    font-size: 20px;
+}
+
+.column h2 {
+    padding-top: 10px;
+    font-size: 15px;
+    color: hsl(232, 10%, 55%);
+}
+
+.obl{
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ float: right;
+}
+
+.dem {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 25%;
+}
+
+.foot {
+    Width: 100%;
+Height: 600px;
+background-color: forestgreen;
+}
+
+.last {
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+    padding-top: 420px;
+}
+
+.finish {
+    
+    padding-inline: 50vw;
+    padding-top: 30px;
+    align-items: center;  
+    float: left;
+    display: flex;
+    
+}
+
+.logos {
+    padding-inline: 50vw;
+    padding-top: 30px;
+    align-items: center;  
+    float: left;
+    display: flex;
+}
